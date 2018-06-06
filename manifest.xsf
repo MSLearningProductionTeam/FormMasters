@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is automatically created and modified by Microsoft InfoPath.
+Changes made to the file outside of InfoPath might be lost if the form template is modified in InfoPath.
+-->
+<xsf:xDocumentClass trustSetting="automatic" solutionFormatVersion="3.0.0.0" solutionVersion="1.0.0.52" productVersion="15.0.0" publishUrl="C:\Users\v-jgayle\Desktop\New folder (2)\manifest.xsf" name="urn:schemas-microsoft-com:office:infopath:New-folder--2-:-myXSD-2018-05-21T23-03-19" xmlns:xsf="http://schemas.microsoft.com/office/infopath/2003/solutionDefinition" xmlns:xsf2="http://schemas.microsoft.com/office/infopath/2006/solutionDefinition/extensions" xmlns:xsf3="http://schemas.microsoft.com/office/infopath/2009/solutionDefinition/extensions" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdUtil="http://schemas.microsoft.com/office/infopath/2003/xslt/Util" xmlns:xdXDocument="http://schemas.microsoft.com/office/infopath/2003/xslt/xDocument" xmlns:xdMath="http://schemas.microsoft.com/office/infopath/2003/xslt/Math" xmlns:xdDate="http://schemas.microsoft.com/office/infopath/2003/xslt/Date" xmlns:xdExtension="http://schemas.microsoft.com/office/infopath/2003/xslt/extension" xmlns:xdEnvironment="http://schemas.microsoft.com/office/infopath/2006/xslt/environment" xmlns:xdUser="http://schemas.microsoft.com/office/infopath/2006/xslt/User" xmlns:xdServerInfo="http://schemas.microsoft.com/office/infopath/2009/xslt/ServerInfo" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-21T23:03:19" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:tns="http://microsoft.com/webservices/SharePointPortalServer/UserProfileService" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+	<xsf:package>
+		<xsf:files>
+			<xsf:file name="myschema.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="namespace" type="string" value="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-21T23:03:19"></xsf:property>
+					<xsf:property name="editability" type="string" value="full"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="myFields"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="template.xml"></xsf:file>
+			<xsf:file name="sampledata.xml">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="sampleData"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="view1.xsl">
+				<xsf:fileProperties>
+					<xsf:property name="lang" type="string" value="1033"></xsf:property>
+					<xsf:property name="componentId" type="string" value="187"></xsf:property>
+					<xsf:property name="xmlToEditName" type="string" value="181"></xsf:property>
+					<xsf:property name="mode" type="string" value="24"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="BuiltInActiveXControls.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="namespace" type="string" value="http://schemas.microsoft.com/office/infopath/2007/PartnerControls"></xsf:property>
+					<xsf:property name="editability" type="string" value="none"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="upgrade.xsl"></xsf:file>
+			<xsf:file name="FCD3F551.png">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="viewComponent"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="LearningHelpDeskStyles.css">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="resource"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+		</xsf:files>
+	</xsf:package>
+	<xsf:importParameters enabled="yes"></xsf:importParameters>
+	<xsf:documentVersionUpgrade>
+		<xsf:useTransform transform="upgrade.xsl" minVersionToUpgrade="0.0.0.0" maxVersionToUpgrade="1.0.0.45"></xsf:useTransform>
+	</xsf:documentVersionUpgrade>
+	<xsf:extensions>
+		<xsf:extension name="SolutionDefinitionExtensions">
+			<xsf2:solutionDefinition runtimeCompatibility="client server" allowClientOnlyCode="no" verifyOnServer="yes">
+				<xsf2:offline openIfQueryFails="yes" cacheQueries="no"></xsf2:offline>
+				<xsf2:server formLocale="en-US" isPreSubmitPostBackEnabled="no" isMobileEnabled="no">
+					<xsf2:toolbar enabledTop="yes" enabledBottom="no">
+						<xsf2:commands>
+							<xsf2:command action="submit"></xsf2:command>
+							<xsf2:command action="save"></xsf2:command>
+							<xsf2:command action="saveAs"></xsf2:command>
+							<xsf2:command action="close"></xsf2:command>
+							<xsf2:command action="view"></xsf2:command>
+							<xsf2:command action="print"></xsf2:command>
+						</xsf2:commands>
+					</xsf2:toolbar>
+				</xsf2:server>
+				<xsf2:managedCode language="VisualBasic" version="3.0" projectPath="C:\Users\v-jgayle\Documents\InfoPath Projects"></xsf2:managedCode>
+				<xsf2:listPropertiesExtension>
+					<xsf2:fieldsExtension>
+						<xsf2:fieldExtension columnId="{dbf8cdcb-73d2-4349-bc63-d4a759169422}" readWrite="no" columnName="{F87F4CD6-DE42-4EF5-90C3-C4FEDF0312F8}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{9fb9c447-c4a0-4d17-a3ed-462bb63c2a34}" columnName="{50A635A6-BA3C-4B87-A9A2-9425484672BE}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{e82bd767-f12f-4b9e-8e3f-ab829f8d1835}" columnName="{03C7E92A-D7E5-4097-BFC2-1DB24A6DFE32}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{2ff285b8-7fc1-45a8-9480-9250159b2352}" columnName="{42D9E63D-0745-40A6-BA2B-E9C95EFDAD70}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{0d49c565-5ca8-43a9-9cad-85af37daa75f}" columnName="{1F1DA09A-960A-40B0-B174-24789DDF5346}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{d8a53114-a0e0-4b4f-bbf6-f7822dd0136f}" columnName="{BE578FCF-DF0C-4CCD-9929-477682F1DB48}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{744e936d-b36a-4cb3-ae05-8d4f7e5f8f83}" columnName="{DA013B38-E17F-43E2-BA5C-B5C8F352966A}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{88a78ae8-3438-4ca7-8c89-a21d300a8f26}" columnName="{19DD2C8F-8183-4B4B-BB33-6ED4B5EF5F44}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{ad74c576-9aab-4540-848c-8e0cf0649d52}" columnName="{9BEAE5F5-EECF-4173-B751-BA57C89DEEBD}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{f5d0e0ca-908c-4249-919c-267212d6666d}" columnName="{3920BC30-3D1D-4918-8C44-366955D13AFF}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{ccedb2dc-f432-49a1-8b56-5817f5be3880}" columnName="{61553EBB-61D2-4842-AFF9-9D96BCB6DE5B}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{55442aa8-02c1-4ef9-a996-313d238c7935}" columnName="{70B0E08C-C0E4-4151-8B34-87D2F0CC990F}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{54df6eff-e260-48e9-b507-770700a65990}" columnName="{DEB144C8-49C4-469D-82BC-E1BA7CAD9A4E}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{5e552bb5-fc74-4fe8-b848-6a85360df629}" columnName="{FD558454-EBFD-4346-ABCB-CC2507A1B069}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{fa9911c7-da32-406a-aaee-bb0f077135d0}" columnName="{49C38C51-E2CE-4A7A-87D2-459D00A432ED}"></xsf2:fieldExtension>
+						<xsf2:fieldExtension readWrite="no" columnId="{0fd7a3d6-72b3-4246-9cf5-0af12e68b3af}" columnName="{0D9BDF13-5875-49E7-95D4-5C0FFF7D7737}"></xsf2:fieldExtension>
+					</xsf2:fieldsExtension>
+				</xsf2:listPropertiesExtension>
+				<xsf2:sendByMail emailAttachmentType="xml" disableEmailForms="no"></xsf2:sendByMail>
+				<xsf2:solutionPropertiesExtension branch="wss">
+					<xsf2:wss path="../" name="WDG_ProductionRequestForm" description="Windows Devices Group - Learning production request form" browserEnable="yes"></xsf2:wss>
+				</xsf2:solutionPropertiesExtension>
+			</xsf2:solutionDefinition>
+			<xsf3:solutionDefinition>
+				<xsf3:baseUrl relativeUrlBase="https://microsoft.sharepoint.com/sites/Infopedia_G02/WDG_ProductionRequestForm/forms/template.xsn"></xsf3:baseUrl>
+			</xsf3:solutionDefinition>
+		</xsf:extension>
+	</xsf:extensions>
+	<xsf:views default="View 1">
+		<xsf:view name="View 1" caption="View 1">
+			<xsf:editing>
+				<xsf:xmlToEdit name="AdditionalItems_59" item="/my:myFields/my:BOMbuilder/my:AdditionalRequests/my:AdditionalItems" container="/my:myFields/my:BOMbuilder">
+					<xsf:editWith caption="AdditionalItems" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:AdditionalRequests/my:AdditionalItems">
+								<my:AdditionalRequests>
+									<my:AdditionalItems>
+										<my:PageUrl2></my:PageUrl2>
+										<my:DocumentTitle2></my:DocumentTitle2>
+										<my:DocumentDescription2></my:DocumentDescription2>
+										<my:Confidentiality2></my:Confidentiality2>
+										<my:ContentOwner2></my:ContentOwner2>
+										<my:AdditionalDetails2></my:AdditionalDetails2>
+										<my:ContentCoOwner2></my:ContentCoOwner2>
+									</my:AdditionalItems>
+								</my:AdditionalRequests>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="RequestedPublishDate_111" item="/my:myFields/my:Request/my:RequestedPublishDate">
+					<xsf:editWith proofing="no" autoComplete="no" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field3_62" item="/my:myFields/my:BOMbuilder/my:AdditionalRequests/my:AdditionalItems/my:DocumentDescription2">
+					<xsf:editWith type="plainMultiline" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field1_60" item="/my:myFields/my:BOMbuilder/my:AdditionalRequests/my:AdditionalItems/my:PageUrl2">
+					<xsf:editWith type="plainMultiline" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="field2_61" item="/my:myFields/my:BOMbuilder/my:AdditionalRequests/my:AdditionalItems/my:DocumentTitle2">
+					<xsf:editWith type="plainMultiline" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="group17_141" item="/my:myFields/my:AddNew/my:AdditionalAttachmentsGroup/my:AdditionalFileAttachGroup" container="/my:myFields/my:AddNew">
+					<xsf:editWith caption="AdditionalFileAttachGroup" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:AdditionalAttachmentsGroup/my:AdditionalFileAttachGroup">
+								<my:AdditionalAttachmentsGroup>
+									<my:AdditionalFileAttachGroup>
+										<my:FileAttach2 xsi:nil="true"></my:FileAttach2>
+									</my:AdditionalFileAttachGroup>
+								</my:AdditionalAttachmentsGroup>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="FileAttach2_145" item="/my:myFields/my:AddNew/my:AdditionalAttachmentsGroup/my:AdditionalFileAttachGroup/my:FileAttach2">
+					<xsf:editWith component="xFileAttachment"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DocumentDescription_172" item="/my:myFields/my:Request/my:DocumentDescription">
+					<xsf:editWith type="plainMultiline" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="AdditionalDetails_168" item="/my:myFields/my:Request/my:AdditionalDetails">
+					<xsf:editWith type="plainMultiline" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+			</xsf:editing>
+			<xsf:menuArea name="msoStructuralEditingContextMenu">
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="AdditionalItems_59" caption="Insert AdditionalItems before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="group17_141" caption="Insert AdditionalFileAttachGroup before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="AdditionalItems_59" caption="Insert AdditionalItems after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="group17_141" caption="Insert AdditionalFileAttachGroup after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="AdditionalItems_59" caption="Remove AdditionalItems" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="group17_141" caption="Remove AdditionalFileAttachGroup" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="AdditionalItems_59" caption="Insert AdditionalItems" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="group17_141" caption="Insert AdditionalFileAttachGroup" showIf="immediate"></xsf:button>
+				<xsf:button action="xFileAttachment::attach" xmlToEdit="FileAttach2_145" caption="&amp;Attach..." showIf="immediate"></xsf:button>
+				<xsf:button action="xFileAttachment::open" xmlToEdit="FileAttach2_145" caption="&amp;Open" showIf="immediate"></xsf:button>
+				<xsf:button action="xFileAttachment::saveAs" xmlToEdit="FileAttach2_145" caption="&amp;Save As..." showIf="immediate"></xsf:button>
+				<xsf:button action="xFileAttachment::remove" xmlToEdit="FileAttach2_145" caption="Remov&amp;e" showIf="immediate"></xsf:button>
+			</xsf:menuArea>
+			<xsf:mainpane transform="view1.xsl"></xsf:mainpane>
+			<xsf:unboundControls>
+				<xsf:button name="CTRL133_5">
+					<xsf:ruleSetAction ruleSet="ruleSet_1"></xsf:ruleSetAction>
+				</xsf:button>
+				<xsf:button name="CTRL141">
+					<xsf:ruleSetAction ruleSet="ruleSet_2"></xsf:ruleSetAction>
+				</xsf:button>
+				<xsf:button name="CTRL159"></xsf:button>
+				<xsf:button name="CTRL161">
+					<xsf:ruleSetAction ruleSet="ruleSet_6"></xsf:ruleSetAction>
+				</xsf:button>
+			</xsf:unboundControls>
+		</xsf:view>
+	</xsf:views>
+	<xsf:applicationParameters application="InfoPath Design Mode">
+		<xsf:solutionProperties fullyEditableNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-21T23:03:19" lastOpenView="view1.xsl" lastVersionNeedingTransform="1.0.0.45" scriptLanguage="managedCode"></xsf:solutionProperties>
+	</xsf:applicationParameters>
+	<xsf:permissions>
+		<xsf:allowedControl clsid="{61E40D31-993D-4777-8FA0-19CA59B6D0BB}"></xsf:allowedControl>
+	</xsf:permissions>
+	<xsf:documentSchemas>
+		<xsf:documentSchema rootSchema="yes" location="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-21T23:03:19 myschema.xsd"></xsf:documentSchema>
+		<xsf:documentSchema location="http://schemas.microsoft.com/office/infopath/2007/PartnerControls BuiltInActiveXControls.xsd"></xsf:documentSchema>
+	</xsf:documentSchemas>
+	<xsf:fileNew>
+		<xsf:initialXmlDocument caption="New folder (2)" href="template.xml"></xsf:initialXmlDocument>
+	</xsf:fileNew>
+	<xsf:dataObjects></xsf:dataObjects>
+	<xsf:ruleSets>
+		<xsf:ruleSet name="ruleSet_1">
+			<xsf:rule caption="Rule 1" isEnabled="yes">
+				<xsf:assignmentAction targetField="my:AddMoreContentSection/my:MoreContent" expression="&quot;true&quot;"></xsf:assignmentAction>
+			</xsf:rule>
+		</xsf:ruleSet>
+		<xsf:ruleSet name="ruleSet_2">
+			<xsf:rule caption="Rule 1" isEnabled="yes">
+				<xsf:assignmentAction targetField="my:ExampleYesNo" expression="&quot;true&quot;"></xsf:assignmentAction>
+			</xsf:rule>
+		</xsf:ruleSet>
+		<xsf:ruleSet name="ruleSet_3">
+			<xsf:rule caption="Rule 1" condition=". = &quot;AddNewContent&quot;" isEnabled="no">
+				<xsf:assignmentAction targetField="../../my:AddNew/my:AddNewContentCheckBox" expression="&quot;true&quot;"></xsf:assignmentAction>
+			</xsf:rule>
+		</xsf:ruleSet>
+		<xsf:ruleSet name="ruleSet_4">
+			<xsf:rule caption="Rule 1" isEnabled="yes">
+				<xsf:assignmentAction targetField="../../my:RequestPickerSection/my:RequestType" expression="&quot;&quot;"></xsf:assignmentAction>
+			</xsf:rule>
+		</xsf:ruleSet>
+		<xsf:ruleSet name="ruleSet_6">
+			<xsf:rule caption="Rule 1" isEnabled="yes">
+				<xsf:assignmentAction targetField="my:ExampleYesNo" expression="&quot;false&quot;"></xsf:assignmentAction>
+			</xsf:rule>
+		</xsf:ruleSet>
+	</xsf:ruleSets>
+	<xsf:calculations></xsf:calculations>
+	<xsf:domEventHandlers>
+		<xsf:domEventHandler match="/my:myFields/my:AddNew/my:AddNewContentCheckBox">
+			<xsf:ruleSetAction ruleSet="ruleSet_4"></xsf:ruleSetAction>
+		</xsf:domEventHandler>
+		<xsf:domEventHandler match="/my:myFields/my:RequestPickerSection/my:RequestType">
+			<xsf:ruleSetAction ruleSet="ruleSet_3"></xsf:ruleSetAction>
+		</xsf:domEventHandler>
+	</xsf:domEventHandlers>
+	<xsf:submit caption="Submit" disableMenuItem="no" onAfterSubmit="close" showStatusDialog="no">
+		<xsf:errorMessage>The form cannot be submitted because of an error.</xsf:errorMessage>
+		<xsf:davAdapter name="SharePoint Library Submit" submitAllowed="yes" overwriteAllowed="no">
+			<xsf:folderURL value="../../../../teams/Infopedia_Team_Site/TestWindowsForm2/"></xsf:folderURL>
+			<xsf:fileName value="concat(&quot;Windows Production Request&quot;, my:RequestPickerSection/my:RequestType, my:Request/my:FileName)" valueType="expression"></xsf:fileName>
+		</xsf:davAdapter>
+	</xsf:submit>
+	<xsf:listProperties>
+		<xsf:fields>
+			<xsf:field name="RequestType" columnName="{50A635A6-BA3C-4B87-A9A2-9425484672BE}" node="/my:myFields/my:RequestPickerSection/my:RequestType" type="xsd:string"></xsf:field>
+			<xsf:field name="WindowsBG" columnName="{03C7E92A-D7E5-4097-BFC2-1DB24A6DFE32}" node="/my:myFields/my:Request/my:WindowsBG" type="xsd:boolean"></xsf:field>
+			<xsf:field name="DevicesBG" columnName="{42D9E63D-0745-40A6-BA2B-E9C95EFDAD70}" node="/my:myFields/my:Request/my:DevicesBG" type="xsd:boolean"></xsf:field>
+			<xsf:field name="PageURL" columnName="{1F1DA09A-960A-40B0-B174-24789DDF5346}" node="/my:myFields/my:Request/my:PageURL" type="xsd:string"></xsf:field>
+			<xsf:field name="FileName" columnName="{BE578FCF-DF0C-4CCD-9929-477682F1DB48}" node="/my:myFields/my:Request/my:FileName" type="xsd:string"></xsf:field>
+			<xsf:field name="DocumentTitle" columnName="{DA013B38-E17F-43E2-BA5C-B5C8F352966A}" node="/my:myFields/my:Request/my:DocumentTitle" type="xsd:string"></xsf:field>
+			<xsf:field name="DocumentDescription" columnName="{19DD2C8F-8183-4B4B-BB33-6ED4B5EF5F44}" node="/my:myFields/my:Request/my:DocumentDescription" type="xsd:string"></xsf:field>
+			<xsf:field name="Confidentiality" columnName="{9BEAE5F5-EECF-4173-B751-BA57C89DEEBD}" node="/my:myFields/my:Request/my:Confidentiality" type="xsd:string"></xsf:field>
+			<xsf:field name="RequestedPublishDate" columnName="{3920BC30-3D1D-4918-8C44-366955D13AFF}" node="/my:myFields/my:Request/my:RequestedPublishDate" type="xsd:date"></xsf:field>
+			<xsf:field name="SourceFileLocation" columnName="{61553EBB-61D2-4842-AFF9-9D96BCB6DE5B}" node="/my:myFields/my:Request/my:SourceFileLocation" type="xsd:string"></xsf:field>
+			<xsf:field name="AdditionalDetails" columnName="{70B0E08C-C0E4-4151-8B34-87D2F0CC990F}" node="/my:myFields/my:Request/my:AdditionalDetails" type="xsd:string"></xsf:field>
+			<xsf:field name="DisplayName" columnName="{DEB144C8-49C4-469D-82BC-E1BA7CAD9A4E}" node="/my:myFields/my:Request/my:ContentOwner/pc:Person/pc:DisplayName" type="xsd:string" aggregation="first"></xsf:field>
+			<xsf:field name="DisplayName" columnName="{FD558454-EBFD-4346-ABCB-CC2507A1B069}" node="/my:myFields/my:Request/my:ContentCoOwner/pc:Person/pc:DisplayName" type="xsd:string" aggregation="first"></xsf:field>
+			<xsf:field name="FTEOwner" columnName="{49C38C51-E2CE-4A7A-87D2-459D00A432ED}" node="/my:myFields/my:Request/my:FTEOwner" type="xsd:string"></xsf:field>
+			<xsf:field name="AdditionalItems" columnName="{0D9BDF13-5875-49E7-95D4-5C0FFF7D7737}" node="/my:myFields/my:BOMbuilder/my:AdditionalRequests/my:AdditionalItems" type="xsd:integer" aggregation="count"></xsf:field>
+		</xsf:fields>
+	</xsf:listProperties>
+</xsf:xDocumentClass>

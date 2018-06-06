@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-infoPathSolution name="urn:schemas-microsoft-com:office:infopath:New-folder--2-:-myXSD-2018-05-21T23-03-19" href="manifest.xsf" solutionVersion="1.0.0.52" productVersion="15.0.0" PIVersion="1.0.0.0" ?>
+<?mso-application progid="InfoPath.Document" versionProgid="InfoPath.Document.3"?>
+<?mso-infoPath-file-attachment-present?>
+<my:myFields xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:tns="http://microsoft.com/webservices/SharePointPortalServer/UserProfileService" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-21T23:03:19" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<my:Request>
+		<my:WindowsBG>false</my:WindowsBG>
+		<my:DevicesBG>false</my:DevicesBG>
+		<my:PageURL></my:PageURL>
+		<my:FileName></my:FileName>
+		<my:DocumentTitle></my:DocumentTitle>
+		<my:DocumentDescription></my:DocumentDescription>
+		<my:Confidentiality></my:Confidentiality>
+		<my:RequestedPublishDate xsi:nil="true"></my:RequestedPublishDate>
+		<my:Attachments xsi:nil="true"></my:Attachments>
+		<my:SourceFileLocation></my:SourceFileLocation>
+		<my:AdditionalDetails></my:AdditionalDetails>
+		<my:ContentOwner>
+			<pc:Person>
+				<pc:DisplayName></pc:DisplayName>
+				<pc:AccountId></pc:AccountId>
+				<pc:AccountType></pc:AccountType>
+			</pc:Person>
+		</my:ContentOwner>
+		<my:ContentCoOwner>
+			<pc:Person>
+				<pc:DisplayName></pc:DisplayName>
+				<pc:AccountId></pc:AccountId>
+				<pc:AccountType></pc:AccountType>
+			</pc:Person>
+		</my:ContentCoOwner>
+		<my:FTEOwner></my:FTEOwner>
+	</my:Request>
+	<my:RequestPickerSection>
+		<my:RequestType></my:RequestType>
+	</my:RequestPickerSection>
+	<my:AddNew>
+		<my:AddMoreContentSection>
+			<my:MoreContent>false</my:MoreContent>
+		</my:AddMoreContentSection>
+		<my:ImageExampleSection></my:ImageExampleSection>
+		<my:AddNewContentCheckBox>false</my:AddNewContentCheckBox>
+		<my:FileAttach3 xsi:nil="true"></my:FileAttach3>
+		<my:AdditionalAttachmentsGroup>
+			<my:AdditionalFileAttachGroup>
+				<my:FileAttach2 xsi:nil="true"></my:FileAttach2>
+			</my:AdditionalFileAttachGroup>
+		</my:AdditionalAttachmentsGroup>
+	</my:AddNew>
+	<my:BOMbuilder>
+		<my:AdditionalRequests>
+			<my:AdditionalItems>
+				<my:PageUrl2></my:PageUrl2>
+				<my:DocumentTitle2></my:DocumentTitle2>
+				<my:DocumentDescription2></my:DocumentDescription2>
+				<my:Confidentiality2></my:Confidentiality2>
+				<my:ContentOwner2></my:ContentOwner2>
+				<my:AdditionalDetails2></my:AdditionalDetails2>
+				<my:ContentCoOwner2></my:ContentCoOwner2>
+			</my:AdditionalItems>
+		</my:AdditionalRequests>
+	</my:BOMbuilder>
+	<my:NameIntro my:Hello2="">
+		<my:Hello></my:Hello>
+		<my:FirstName></my:FirstName>
+		<my:group>
+			<pc:Person>
+				<pc:DisplayName></pc:DisplayName>
+				<pc:AccountId></pc:AccountId>
+				<pc:AccountType></pc:AccountType>
+			</pc:Person>
+		</my:group>
+	</my:NameIntro>
+	<my:ExampleSection>
+		<my:ExampleYesNo>false</my:ExampleYesNo>
+		<my:ShowExample>false</my:ShowExample>
+	</my:ExampleSection>
+	<my:RequestID xsi:nil="true"></my:RequestID>
+</my:myFields>

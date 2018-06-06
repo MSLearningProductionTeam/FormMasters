@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-21T23:03:19" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:tns="http://microsoft.com/webservices/SharePointPortalServer/UserProfileService" xmlns:s1="http://microsoft.com/wsdl/types/" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-21T23:03:19" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:import schemaLocation="BuiltInActiveXControls.xsd" namespace="http://schemas.microsoft.com/office/infopath/2007/PartnerControls"/>
+	<xsd:attribute name="Hello2" type="xsd:string"/>
+	<xsd:element name="myFields">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:Request" minOccurs="0"/>
+				<xsd:element ref="my:RequestPickerSection" minOccurs="0"/>
+				<xsd:element ref="my:AddNew" minOccurs="0"/>
+				<xsd:element ref="my:BOMbuilder" minOccurs="0"/>
+				<xsd:element ref="my:NameIntro" minOccurs="0"/>
+				<xsd:element ref="my:ExampleSection" minOccurs="0"/>
+				<xsd:element ref="my:RequestID" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax" namespace="http://www.w3.org/XML/1998/namespace"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Request">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:WindowsBG" minOccurs="0"/>
+				<xsd:element ref="my:DevicesBG" minOccurs="0"/>
+				<xsd:element ref="my:PageURL" minOccurs="0"/>
+				<xsd:element ref="my:FileName" minOccurs="0"/>
+				<xsd:element ref="my:DocumentTitle" minOccurs="0"/>
+				<xsd:element ref="my:DocumentDescription" minOccurs="0"/>
+				<xsd:element ref="my:Confidentiality" minOccurs="0"/>
+				<xsd:element ref="my:RequestedPublishDate" minOccurs="0"/>
+				<xsd:element ref="my:Attachments" minOccurs="0"/>
+				<xsd:element ref="my:SourceFileLocation" minOccurs="0"/>
+				<xsd:element ref="my:AdditionalDetails" minOccurs="0"/>
+				<xsd:element ref="my:ContentOwner" minOccurs="0"/>
+				<xsd:element ref="my:ContentCoOwner" minOccurs="0"/>
+				<xsd:element ref="my:FTEOwner" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="WindowsBG" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DevicesBG" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="PageURL" type="xsd:string"/>
+	<xsd:element name="FileName" type="xsd:string"/>
+	<xsd:element name="DocumentTitle" type="xsd:string"/>
+	<xsd:element name="DocumentDescription" type="xsd:string"/>
+	<xsd:element name="Confidentiality" type="xsd:string"/>
+	<xsd:element name="RequestedPublishDate" nillable="true" type="xsd:date"/>
+	<xsd:element name="Attachments" nillable="true" type="xsd:base64Binary"/>
+	<xsd:element name="SourceFileLocation" type="xsd:string"/>
+	<xsd:element name="AdditionalDetails" type="xsd:string"/>
+	<xsd:element name="ContentOwner">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="pc:Person" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ContentCoOwner">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="pc:Person" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="FTEOwner" type="xsd:string"/>
+	<xsd:element name="RequestPickerSection">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RequestType" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RequestType" type="my:requiredString"/>
+	<xsd:element name="AddNew">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:AddMoreContentSection" minOccurs="0"/>
+				<xsd:element ref="my:ImageExampleSection" minOccurs="0"/>
+				<xsd:element ref="my:AddNewContentCheckBox" minOccurs="0"/>
+				<xsd:element ref="my:FileAttach3" minOccurs="0"/>
+				<xsd:element ref="my:AdditionalAttachmentsGroup" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AddMoreContentSection">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:MoreContent" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="MoreContent" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="ImageExampleSection">
+		<xsd:complexType>
+			<xsd:sequence/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AddNewContentCheckBox" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="FileAttach3" nillable="true" type="xsd:base64Binary"/>
+	<xsd:element name="AdditionalAttachmentsGroup">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:AdditionalFileAttachGroup" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AdditionalFileAttachGroup">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:FileAttach2" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="FileAttach2" nillable="true" type="xsd:base64Binary"/>
+	<xsd:element name="BOMbuilder">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:AdditionalRequests" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AdditionalRequests">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:AdditionalItems" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AdditionalItems">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:PageUrl2" minOccurs="0"/>
+				<xsd:element ref="my:DocumentTitle2" minOccurs="0"/>
+				<xsd:element ref="my:DocumentDescription2" minOccurs="0"/>
+				<xsd:element ref="my:Confidentiality2" minOccurs="0"/>
+				<xsd:element ref="my:ContentOwner2" minOccurs="0"/>
+				<xsd:element ref="my:AdditionalDetails2" minOccurs="0"/>
+				<xsd:element ref="my:ContentCoOwner2" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="PageUrl2" type="xsd:string"/>
+	<xsd:element name="DocumentTitle2" type="xsd:string"/>
+	<xsd:element name="DocumentDescription2" type="xsd:string"/>
+	<xsd:element name="Confidentiality2" type="xsd:string"/>
+	<xsd:element name="ContentOwner2" type="xsd:string"/>
+	<xsd:element name="AdditionalDetails2" type="xsd:string"/>
+	<xsd:element name="ContentCoOwner2" type="xsd:string"/>
+	<xsd:element name="NameIntro">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:Hello" minOccurs="0"/>
+				<xsd:element ref="my:FirstName" minOccurs="0"/>
+				<xsd:element ref="my:group" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:attribute ref="my:Hello2"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Hello" type="xsd:string"/>
+	<xsd:element name="FirstName" type="xsd:string"/>
+	<xsd:element name="group">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="pc:Person" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ExampleSection">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ExampleYesNo" minOccurs="0"/>
+				<xsd:element ref="my:ShowExample" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ExampleYesNo" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="ShowExample" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="RequestID" nillable="true" type="xsd:integer"/>
+	<xsd:simpleType name="requiredString">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="requiredAnyURI">
+		<xsd:restriction base="xsd:anyURI">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="requiredBase64Binary">
+		<xsd:restriction base="xsd:base64Binary">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>
